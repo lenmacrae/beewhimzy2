@@ -1,48 +1,25 @@
 baseurl = "http://beewhimzy.com/"
-title = "Bee Whimzy"
-theme = "hugo-creative-portfolio-theme"
-languageCode = "en-us"
-# Enable comments by entering your Disqus shortname
 disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-
+languageCode = "en-us"
+theme = "hugo-creative-portfolio-theme"
+title = "Bee Whimzy"
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
-  # Use custom.css for your custom styling
-  style = "pink"
-  description = "Handcraft crochet clothes"
-  copyright = "&copy;2017 Bee Whimzy"
-  sidebarAbout = ["Handcrafted in Canada 🍁 Crochet clothes for your busy 🐝 and their whimsical adventures Free shipping within 🇨🇦 Email: info@beewhimzy.com"]
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-#  email = "you@yoursite.com"
-
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = ""
-
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
-
-  [params.social]
-  facebook      = "https://www.facebook.com/beewhimzy/"
-  email         = "info@beewhimzy.com"
-  twitter       = "https://twitter.com/beewhimzy"
-  instagram     = "https://www.instagram.com/beewhimzy/"
+copyright = "&copy;2017 Bee Whimzy"
+description = "Handcraft crochet clothes"
+sidebarabout = ["Handcrafted in Canada 🍁 Crochet clothes for your busy 🐝 and their whimsical adventures Free shipping within 🇨🇦 Email: info@beewhimzy.com"]
+style = "pink"
+[params.social]
+email = "info@beewhimzy.com"
+facebook = "https://www.facebook.com/beewhimzy/"
+instagram = "https://www.instagram.com/beewhimzy/"
+twitter = "https://twitter.com/beewhimzy"
+[[params.navlinks]]
+name = "Home"
+url = ""
+[[params.navlinks]]
+name = "About"
+url = "about/"
+[[params.navlinks]]
+name = "Get in touch"
+url = "contact/"
